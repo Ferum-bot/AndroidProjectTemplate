@@ -1,2 +1,2 @@
-# AndroidProjectTemplate
-Android project template. Needed to fast configuration android app.
+# AndroidClient
+Android client for Kitchen On Air service.
