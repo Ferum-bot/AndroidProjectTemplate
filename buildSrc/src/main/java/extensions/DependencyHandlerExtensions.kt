@@ -46,7 +46,7 @@ fun DependencyHandler.addAllUIDependencies() {
     implementation(Dependencies.VIEW_PAGER2)
     implementation(Dependencies.NAVIGATION_FRAGMENT)
     implementation(Dependencies.PIN_VIEW)
-    implementation(Dependencies.PAGE_INDICATOR)
+//    implementation(Dependencies.PAGE_INDICATOR)
     implementation(Dependencies.ADAPTER_DELEGATES_DSL)
     implementation(Dependencies.ADAPTER_DELEGATES_VIEW_BINDING)
     implementation(Dependencies.CIRCLE_IMAGE_VIEW)
@@ -103,15 +103,19 @@ fun DependencyHandler.addLifecycleDependencies() {
 fun DependencyHandler.addBaseCoreDependencies() {
     implementation(Dependencies.MULTIDEX)
     implementation(Dependencies.APPCOMPAT)
+    implementation(Dependencies.APPCOMPAT_RESOURCE)
     implementation(Dependencies.KTX)
     implementation(Dependencies.FRAGMENT_KTX)
+    implementation(Dependencies.ROLE_MANAGER)
+    implementation(Dependencies.ANIMATION)
+    implementation(Dependencies.SPLASH_SCREEN)
     api(Dependencies.COROUTINES)
     api(Dependencies.COROUTINES_ANDROID)
 }
 
 fun DependencyHandler.addGlideDependencies() {
     implementation(Dependencies.GLIDE)
-    implementation(Dependencies.GLIDE_TRANSFORMATIONS)
+//    implementation(Dependencies.GLIDE_TRANSFORMATIONS)
     kapt(KaptDependencies.GLIDE_COMPILER)
 }
 
