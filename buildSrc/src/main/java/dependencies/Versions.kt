@@ -2,17 +2,20 @@ package dependencies
 
 object Versions {
     // Kotlin
-    const val KOTLIN = "1.5.20"
-    const val COROUTINES = "1.5.0"
+    const val KOTLIN = "1.6.10"
+    const val COROUTINES = "1.6.0"
 
     // Gradle
     const val TOOLS_GRADLE = "4.0.1"
 
     // Core
     const val MULTIDEX = "2.0.1"
-    const val APPCOMPAT = "1.2.0"
-    const val KTX = "1.3.2"
-    const val FRAGMENT_KTX = "1.3.0"
+    const val APPCOMPAT = "1.4.1"
+    const val KTX = "1.7.0"
+    const val FRAGMENT_KTX = "1.4.1"
+    const val ROLE_MANAGER = "1.0.0"
+    const val ANIMATION = "1.0.0-alpha02"
+    const val SPLASH_SCREEN = "1.0.0-beta01"
 
     // Lifecycle
     const val LIFECYCLE = "2.3.1"
