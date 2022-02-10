@@ -9,8 +9,12 @@ object Dependencies {
     // Core
     const val MULTIDEX = "androidx.multidex:multidex:${Versions.MULTIDEX}"
     const val APPCOMPAT = "androidx.appcompat:appcompat:${Versions.APPCOMPAT}"
+    const val APPCOMPAT_RESOURCE = "androidx.appcompat:appcompat-resources:${Versions.APPCOMPAT}"
     const val KTX = "androidx.core:core-ktx:${Versions.KTX}"
     const val FRAGMENT_KTX = "androidx.fragment:fragment-ktx:${Versions.FRAGMENT_KTX}"
+    const val ROLE_MANAGER = "androidx.core:core-role:${Versions.ROLE_MANAGER}"
+    const val ANIMATION = "androidx.core:core-animation:${Versions.ANIMATION}"
+    const val SPLASH_SCREEN = "androidx.core:core-splashscreen:${Versions.SPLASH_SCREEN}"
 
     // Lifecycle
     const val LIFECYCLE_LIVEDATA_KTX = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.LIFECYCLE}"
